@@ -1,0 +1,29 @@
+#container{
+    margin: 5%;
+    font-size: xx-large;
+    height: 50px;
+    width: 150px;
+}
+#box-1{
+    height: 20px;
+    width: 150px;
+    font-weight: bold;
+    border: 2px solid rgba(68, 235, 227, 0.705);
+    border-radius: 30%;
+    color:rgba(68, 235, 227, 0.705);
+    border-color:rgba(68, 235, 227, 0.705);
+    background-color: whitesmoke;
+}
+#box-2{
+    background-color: rgba(12, 202, 171, 0.651);
+    border-radius: 50%;
+    color: whitesmoke;
+    display: block;
+    border: rgba(12, 202, 171, 0.651);
+}
+#box-3{
+    background-color: blue;
+    color: whitesmoke;
+    box-shadow: 2px 4px 4px 2px black;
+    font-weight: lighter;
+}
