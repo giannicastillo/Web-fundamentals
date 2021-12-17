@@ -1,0 +1,32 @@
+.nav{
+    background-color: rgba(0, 0, 0, 0.801);
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.nav-title{
+    color: whitesmoke;
+}
+.nav-links{
+    color: rgba(0, 0, 0, 0.568);
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.active{
+    color: whitesmoke;
+    display: flex;
+
+}
+.btn{
+    color: white; 
+    background-color: rgba(64, 165, 224, 0.705);
+}
+.color{
+    margin: 20px;
+    color: grey;
+}
+.color-profile{
+    color: whitesmoke;
+}
