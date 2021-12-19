@@ -1,0 +1,331 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+#container{
+}
+.nav-bar-color{
+    background-color: black;
+    padding: 5px 0px 10px 0px; 
+}
+.nav-bar{
+    position: relative;
+    display: flex;
+    align-items:center ;
+    justify-content:space-between;
+    margin: 25px 0px 0px 200px;
+}
+.profile{
+    color: white;
+    padding-bottom: 5px;
+}
+.nav-links{
+    position: relative;
+    padding-right: 600px;
+    margin: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type:none;
+}
+.home,.findconnections{
+    color: rgba(175, 173, 173, 0.911);
+    text-decoration: none;
+}
+.my-profile{
+    margin: 25px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.btn{
+    position: relative;
+    background-color:rgba(99, 205, 247, 0.863);
+    color:white;
+    margin-right: 600px;
+    width: 100px;
+    height: 25px;
+    font-size: 15px;
+}
+/* ***START UPPER LEFT BOX*** */
+#profile{
+    display:inline-block;
+    margin:25px 0px 0px 200px;
+    border-width: medium;
+    border: 1px solid rgba(0, 0, 0, 0.247);
+    width: 600px;
+    height: 400px;
+}
+.top-ul-row{
+    background-color:rgba(99, 176, 247, 0.863);
+    width: 600px;
+    height: 100px;
+}
+.ul-user-circle{
+    position: absolute;
+    margin: 50px 0px 0px 25px;
+    width: 100px;
+    height: 100px;
+}
+.jane-doe{
+    position: absolute;
+    margin: 50px 0px 0px 25px;
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.mappoint{
+    position: absolute;
+    margin: 100px 0px 0px 25px;
+    width: 15px;
+    height: 20px;
+}
+.seattle{
+    position: absolute;
+    margin: 100px 0px 0px 50px;
+    font-size: 20px;
+}
+.header{
+    margin: 130px 0px 0px 25px;
+    font-size: 20px ;
+}
+.gear{
+    margin: 20px 0px 0px 0px;
+    width: 15px;
+    height: 15px;
+}
+.edit-profile{
+    color: blue;
+    font-size: 20px;
+
+}
+#connection-request{
+    position: relative;
+    left: 800px;
+    bottom: 315px;
+    width: 300px;
+    height:250px; 
+    border: solid rgba(0, 0, 0, 0.247);
+    border-width: 1px medium black;
+}
+.heading-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px 0px 5px 0px;
+    font-size: 25px;
+    background-color:rgba(0, 0, 0, 0.774);
+}
+.num-2{
+    background-color: whitesmoke;
+    height: 25px;
+    width: 25px;
+    padding:5px 5px 5px 5px;
+    margin-right: 5px;
+    border-radius: 50%;
+    color: rgba(0, 0, 0, 0.774);
+}
+.connect-req{
+    color:whitesmoke;
+}
+#te-butn{
+    position: absolute;
+    border: solid rgba(0, 0, 0, 0.233);
+    width: 300px;
+    height:100px;
+    top: 45px;
+}
+.te-pic{
+    width: 50px;
+    height: 50px;
+    margin: 25px 0px 0px 25px;
+}
+.te-name{
+    position:relative;
+    left: 100px;
+    bottom: 50px;
+}
+.te-check{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    left: 200px;
+    bottom: 80px;
+}
+.te-x{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    left: 200px;
+    bottom: 80px;
+    margin-left: 10px;
+}
+#pk-butn{
+    position: absolute;
+    border: solid rgba(0, 0, 0, 0.233);
+    width: 300px;
+    height:100px;
+    top: 150px;
+}
+.pk-pic{
+    width: 50px;
+    height: 50px;
+    margin: 25px 0px 0px 25px;
+}
+.pk-name{
+    position:relative;
+    left: 100px;
+    bottom: 50px;
+}
+.pk-check{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    left: 200px;
+    bottom: 80px;
+}
+.pk-x{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    left: 200px;
+    bottom: 80px;
+    margin-left: 10px;
+}
+/* <!-- ***START WITH EDUCATION BOX*** --> */
+#education-box{
+    position: absolute;
+    top: 500px; 
+    right: 525px;
+    border: solid rgba(0, 0, 0, 0.233);
+    border-width: 1px medium;
+    width: 600px;
+    height: 400px;
+}
+.ed-header{
+    background-color: rgba(0, 0, 0, 0.774);
+    width: 600px;
+    height: 75px;
+}
+.education{
+    position: relative;
+    color: whitesmoke;
+    top: 25px;
+    left: 50px;
+}
+#ed-body{
+    position:relative;
+    left:45px;
+}
+.coding-bootcamp{
+    position: relative;
+    top:100px;
+}
+.dates{
+    position: relative;
+    top: 125px;
+    color:  rgba(0, 0, 0, 0.589);
+    font-weight: lighter;
+}
+.tri-belt{
+    position: relative;
+    top: 150px;
+}
+/* ***STATE YOUR CONNECTIONS BOX*** */
+#your-connections-box{
+    position: relative;
+    left: 830px;
+    bottom: 300px;
+    width: 300px;
+    height:518px; 
+    border: 1px solid rgba(0, 0, 0, 0.247);
+    border-width: 1px medium black;
+}
+.your-connections-header{
+    background-color: rgba(0, 0, 0, 0.774);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+}
+.five-hundred{
+    background-color: whitesmoke;
+    color: rgba(0, 0, 0, 0.774);
+    height: 40px;
+    width: 40px;
+    padding:5px 10px 5px 10px;
+    margin-right: 5px;
+    border-radius: 75%;
+}
+.your-connections{
+    color: whitesmoke;
+}
+#ad-button{
+    position: absolute;
+    border: solid rgba(0, 0, 0, 0.233);
+    width: 295px;
+    height:100px;
+    top: 100px;
+}
+.ad-pic{
+    width: 50px;
+    height: 50px;
+    margin: 25px 0px 0px 25px; 
+}
+.adrien-d{
+    position: relative;
+    left: 100px;
+    bottom: 50px;
+}
+#aj-button{
+    position: relative;
+    border: solid rgba(0, 0, 0, 0.233);
+    width: 295px;
+    height:100px;
+    top: 100px;
+}
+.aj-pic{
+    width: 50px;
+    height: 50px;
+    margin: 25px 0px 0px 25px; 
+}
+.anne-j{
+    position: relative;
+    left: 100px;
+    bottom: 50px;
+} 
+#at-button{
+    position: relative;
+    border: solid rgba(0, 0, 0, 0.233);
+    width: 295px;
+    height:100px;
+    top: 100px;
+}
+.at-pic{
+    width: 50px;
+    height: 50px;
+    margin: 25px 0px 0px 25px; 
+}
+.alayne-t{
+    position: relative;
+    left: 100px;
+    bottom: 50px;
+}
+#ay-button{
+    position: relative;
+    border: solid rgba(0, 0, 0, 0.233);
+    width: 295px;
+    height:100px;
+    top: 100px;
+}
+.ay-pic{
+    width: 50px;
+    height: 50px;
+    margin: 25px 0px 0px 25px; 
+}
+.arry-y{
+    position: relative;
+    left: 100px;
+    bottom: 50px;
+}
