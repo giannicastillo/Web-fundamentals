@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+#container{
+    margin: 0px 20% 0px 20%;
+}
+#nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.315);
+    width: 900px;
+    height: 50px;
+}
+.dojonary{
+    font-size: 25px;
+    font-weight: lighter;
+    margin-left: 25px;
+}
+.nav-search-bar{
+    height: 20px;
+    width: 300px;
+    background-color: whitesmoke;
+    color: rgba(0, 0, 0, 0.356);
+    border: solid black;
+}
+.loginout-box{
+    background-color: rgb(0, 132, 255);
+    color:white;
+    margin-right: 25px;
+    height: 30px;
+    width: 60px;
+    border-bottom-style: 5px outset ;
+    border-width: thick 5px;
+    box-shadow: black;
+}
+#ninja-box-1, #ninja-box-2{
+    width: 500px;
+    height: 200px;
+    margin: 50px 0px 0px 0px;
+    border-width: 1px black;
+    border: solid black;
+    align-items: center;
+}
+.ninja-1, .ninja-2{
+    font-size: 50px;
+    margin-left: 20px;
+}
+.noun-1, .noun-2 {
+    font-size: 25px;
+    margin-left: 30px;
+    font-style: italic;
+}
+.plural-1, .plural-2{
+    margin-top: 5px;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.likes-1, .likes-2{
+    background-color: yellow;
+    margin-top: 25px;
+    font-size: 15px;
+    font-style: bold;
+    margin-left: 20px;
+    height: 35px;
+    width: 80px;
+    border-bottom-style: 5px outset ;
+    border-width:thick 5px;
+    box-shadow: black;
+}
+.def-1, .def-2{
+    display: incline-block;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+    left:175px;
+    bottom: 110px;
+    width: 310px;
+    height: 100px;
+    font-size: 20px;
+}
+.jap{
+    color: rgba(0, 0, 255, 0.719);
+    position: relative;
+    display:inline-block;
+    align-items:center;
+    left: 225px;
+    bottom: 23px;
+    text-decoration: underline;
+}
+.def-1b{
+    position: relative;
+    display: inline-block;
+    right: 75px;
+}
+.ninjutsu{
+    color: rgba(0, 0, 255, 0.719);
+    position: relative;
+    display: inline-block;
+    right: 75px;
+    text-decoration: ;
+}
+.programmer{
+    color: rgba(0, 0, 255, 0.719);
+    position: relative;
+    display: inline-block;
+    left: 20px;
+    bottom: 22px;
+}
+.def-2b{
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    bottom: 22px;
+}
+.problems-with{
+    position: relative;
+    left: 0px;
+    bottom: 22px;
+}
+.zen{
+    color: rgba(0, 0, 255, 0.719);
+    position: relative;
+    display: inline-block;
+    left: 120px;
+    bottom: 45px;
+}
+.def-2c{
+    position: relative;
+    display: inline-block;
+    left: 116px;
+    bottom: 45px;
+}
+#upper-right-box{
+    display: inline-block;
+    position: relative;
+    left:590px;
+    bottom: 525px;
+    border: solid black;
+    width: 250px;
+    height: 160px;
+}
+.up-right-text{
+    margin: 30px 20px 15px 20px;
+    align-items: center;
+    font-size: 25px;
+}
+.add-def-btn{
+    background-color: rgba(0, 128, 0, 0.52);
+    position: relative;
+    left: 50px;
+    top: 15px;
+    color: black;
+    border-bottom: strong 1px black;
+    border-width: 5px;
+    height: 30px;
+    width: 150px;
+}
