@@ -1,0 +1,33 @@
+#box{
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 500px;
+    height: 200px;
+    border: solid black;
+}
+#top-box{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 20px 0px 0px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.some-user{
+    font-size: 30px;
+}
+#three-likes{
+    font-weight: bold;
+}
+.likebtn{
+    background-color: yellow;
+    font-weight: bold;
+    margin: 10px;
+    height: 40px;
+    width: 70px;
+    border-width: solid 10px black;
+}
+.body{
+    position: relative;
+    font-size: 20px;
+    margin-left: 20px;
+}
