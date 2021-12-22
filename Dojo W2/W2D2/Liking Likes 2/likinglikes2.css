@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+#container{
+    margin: 0% 10% 0% 10%;
+    border: solid 1px black;
+    height: 900px;
+}
+#nav-bar{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 50px;
+    padding:10px;
+    font-size: 20px;
+}
+.your-feed{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin: 20px 0px 20px 0px;
+}
+#left-box{
+    height: 400px;
+    width: 300px;
+    border: solid 3px black;
+}
+.profile{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    top: 25px;
+    left: 75px; 
+}
+.avatar{
+    display: flex;
+    position: relative;
+    top: 30px;
+    left: 80px; 
+    font-size: 25px;
+    color: rgba(0, 89, 255, 0.671);
+}
+.james-d{
+    position: relative;
+    align-items: center;
+    top: 80px;
+    left: 50px; 
+    font-size: 50px;
+}
+#row-1{
+    position: relative;
+    left: 35%;
+    bottom: 45%;
+    width: 600px;
+    height: 200px;
+    border: solid black;
+}
+#top-row-1{
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between;
+    margin: 20px 0px 0px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.name-1{
+    position: absolute;
+    font-size: 30px;
+    align-items: flex-start;
+    height: 75px;
+    width: 200px;
+}
+#numlikes-1{
+    position: absolute;
+    display:flex;
+    left: 200px;
+    margin-bottom: 100px;
+    font-size: 25px;
+    width: 200px;
+    height: 75px;
+    font-weight: bold;
+}
+.likebtn1{
+    position:absolute;
+    left:475px;
+    background-color: yellow;
+    font-weight: bold;
+    margin: 5px;
+    height: 40px;
+    width: 70px;
+    font-size: 20px;
+    border-width: solid 10px black;
+}
+.body-1{
+    position:absolute;
+    top: 100px;
+    right: 0px;
+    left:20px;
+    font-size: 20px;
+    height: 100px; 
+    width: 600px;
+}
+#row-2{
+    position: absolute;
+    left: 0%;
+    top: 250px;
+    width: 600px;
+    height: 200px;
+    border: solid black;
+}
+#top-row-2{
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between;
+    margin: 20px 0px 0px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.name-2{
+    position: absolute;
+    font-size: 30px;
+    align-items: flex-start;
+    height: 75px;
+    width: 200px;
+}
+#numlikes-2{
+    position: absolute;
+    display:flex;
+    left: 200px;
+    margin-bottom: 100px;
+    font-size: 25px;
+    width: 200px;
+    height: 75px;
+    font-weight: bold;
+}
+.likebtn2{
+    position:absolute;
+    left:475px;
+    background-color: yellow;
+    font-weight: bold;
+    margin: 5px;
+    height: 40px;
+    width: 70px;
+    font-size: 20px;
+    border-width: solid 10px black;
+}
+.body-2{
+    position:absolute;
+    top: 100px;
+    right: 0px;
+    left:20px;
+    font-size: 20px;
+    height: 100px; 
+    width: 600px;
+}
+#row-3{
+    position: absolute;
+    left: 0%;
+    top: 250px;
+    width: 600px;
+    height: 200px;
+    border: solid black;
+}
+#top-row-3{
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between;
+    margin: 20px 0px 0px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.name-3{
+    position: absolute;
+    font-size: 30px;
+    align-items: flex-start;
+    height: 75px;
+    width: 200px;
+}
+#numlikes-3{
+    position: absolute;
+    display:flex;
+    left: 200px;
+    margin-bottom: 100px;
+    font-size: 25px;
+    width: 200px;
+    height: 75px;
+    font-weight: bold;
+}
+.likebtn3{
+    position:absolute;
+    left:475px;
+    background-color: yellow;
+    font-weight: bold;
+    margin: 5px;
+    height: 40px;
+    width: 70px;
+    font-size: 20px;
+    border-width: solid 10px black;
+}
+.body-3{
+    position:absolute;
+    top: 100px;
+    right: 0px;
+    left:20px;
+    font-size: 20px;
+    height: 100px; 
+    width: 600px;
+}
