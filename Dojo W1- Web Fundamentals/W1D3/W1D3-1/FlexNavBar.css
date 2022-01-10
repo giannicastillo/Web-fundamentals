@@ -1,3 +1,6 @@
+*{
+    text-decoration: none;
+}
 .nav{
     background-color: rgba(0, 0, 0, 0.801);
     display: flex;
@@ -10,9 +13,13 @@
 .nav-links{
     color: rgba(0, 0, 0, 0.568);
     display: flex;
-    margin: 10px;
+    margin: 15px;
     align-items: center;
+    list-style-type: none;
     justify-content: space-between;
+}
+.navlinks a{
+    text-decoration: none;
 }
 .active{
     color: whitesmoke;

@@ -1,0 +1,182 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: whitesmoke
+}
+#container{
+    background-color: white;
+    margin: 0% 10% 0% 10%;
+    height: 1000px;
+    border: 1px solid black;
+}
+#whole-body{
+    margin: 0px 10px 0px 10px;
+    display: flex;
+}
+#top-body{
+    display:block;
+    flex-direction: row;
+    background-color: rgba(244, 165, 96, 0.664);
+    width: 100%;
+    height: 300px;
+}
+.top-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(49, 49, 49);
+    width: 100%;
+    height: 75px;
+}
+.justdessert{
+    background-color:rgb(49, 49, 49);
+    font-size: 30px;
+    padding: 10px;
+}
+.just{
+    color: white;
+    background-color: rgb(49, 49, 49);
+}
+.dessert{
+    background-color: rgb(49, 49, 49);
+    color: orange;
+}
+.join-btn{
+    background-color: orange;
+    color: black;
+    width: 50px;
+    height: 25px;
+    border: strong 1px black;
+    border-width: 3px;
+    margin-left: 400px;
+}
+.login-btn{
+    background-color: blue;
+    color: white;
+    width: 50px;
+    height: 25px;
+    border: strong 1px black;
+    border-width: 3px;
+    margin-right: 100px;
+}
+.search-treats{
+    display: inline-block;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    margin-left: 200px;
+}
+.search-bar{
+    display: inline-block;
+    height: 25px;
+    width: 150px;
+    border: solid 1px black;
+    border-width: 2px black;
+}
+.go{
+    color: white;
+    background-color: rgb(0, 89, 255);
+    height: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 5px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.treat-imgs{
+    display: inline-flex;
+    background-color: transparent;
+    justify-content: space-between;
+    margin-left: 50px;
+    bottom: 450px;
+    height: 100px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 50%;
+
+}
+.treat-names{
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    width: 500px;
+    margin-left: 250px;
+
+}
+
+  /* top bosy top row above */
+
+#body-left{
+    display:inline-block;
+    width: 60%;
+    height: 500px;
+    border: 1px solid black;
+    margin-bottom: 100px;
+    padding-left: 0px;
+
+} 
+.recipe-day{
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: none;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.jelly-tart{
+    margin:0px 20px 0px 20px;
+    align-items: center;
+}
+.tart-pic{
+    margin: 15px;
+    align-items: center;
+    height: 300px;
+    width: 500px;
+    margin-bottom: 10px;
+}
+.see-recipe{
+    text-align: center;
+    text-decoration: none;
+    margin-left: 200px;
+}
+#body-right{
+    display:flex;
+    position: relative;
+    left: 900px;
+    bottom: 450px;
+    justify-content: space-between;
+    width: 40%;
+    height: 800px;
+    border: 1px solid black;
+    margin-bottom: 1200px;
+}
+.recommendations{
+    align-items: center;
+}
+.macarons{
+    display:flex;
+    height:200px;
+    width:200px;
+}
+.likebtn1 , .likebtn2{
+    display:flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 25px;
+    width: 25px;
+    margin-left:280px;
+}
+
+.brulee{
+    display:flex;
+    height:200px;
+    width:200px;
+    margin-top: 250px;
+    margin-right: 200px;
+
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Practice</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <div id="container">
+        <div id="nav-bar">
+            <p class="profile">Profile</p>
+            <div class="nav-options"> Home <span class="my-profile">My Profile</span> Find Connections
+            <button class="sign-out">Sign Out</button></div>
+        </div>
+        <div id="body">
+            <div id="left-column">
+                <div id="topleft-box">
+                    <div class="tl-header">
+                        <img class="icon" src="./icons 3/user-circle.png" alt="user-circle">
+                    </div>
+                    <div id="tl-body">
+                        <p id="jane">Jane Doe</p>
+                        <div class="seattle">
+                            <img class="pin" src="./icons 3/map-marker.png" alt="pointer">
+                            <p>Seattle</p>
+                        </div>
+                        <div class="header"> Developer | Engineer | Problem Solver  Master of shadows and the Internet!</div>
+                        <div id="editprofile">
+                            <img class="gear" src="./icons 3/gear.png" alt="gear">
+                            <a href="#" onclick="switchName(this)" >edit profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="bottomleft-box">
+                    <div class="ed-header">Education</div>
+                    <div class="ed-body">
+                        <p class="cd-bootcamp">Coding Dojo - Full Stack Bootcamp</p>
+                        <p class="dates">Dec 2019 - March 2020</p>
+                        <p class="black-belts">Triple black belt in Python, MERN, and C#...</p>
+                    </div> 
+                </div>
+            </div>
+            <div id="right-column">
+                <div id="topright-box">
+                    <div class="tr-header">
+                        <p class="conn-req"><span class="two">2</span> Connection Requests</p>
+                    </div>
+                    <div class="todd" onclick="hide(this)"  >
+                        <img class="todd-pic" src="./images 3/todd-s.jpg" alt="todd-e">
+                        <p>Todd E</p>
+                        <img class="check" src="./icons 2/accept-circle.png" alt="check">
+                        <img class="x" src="./icons 2/close-circle.png" alt="x">
+                    </div>
+                    <div class="phil" onclick="hide(this)" >
+                        <img class="phil-pic" src="./images 3/phil-s.jpg" alt="phil-k">
+                        <p>Phil K</p>
+                        <img class="check" src="./icons 2/accept-circle.png" alt="check">
+                        <img class="x" src="./icons 2/close-circle.png" alt="x"> 
+                    </div>
+                </div>
+                <div id="bottomright-box">
+                    <div class="yr-conn">
+                        <p> <span class="connections">418</span> Your Connections</p>
+                    </div>
+                    <div class="br-body">
+                        <div class="adrien">
+                            <img class="adrien-pic" src="./images 3/adrien-s.jpg" alt="adrien-d">
+                            <p>Adrien D</p>
+                        </div>
+                        <div class="anne">
+                            <img class="anne-pic" src="./images 3/anne-s.jpg" alt="anne-j">
+                            <p>Anne J</p>
+                        </div>
+                        <div class="alayne">
+                            <img class="alayne-pic" src="./images 3/alayne-s.jpg" alt="alayne-t">
+                            <p>Alayne T</p>
+                        </div>
+                        <div class="arry">
+                            <img class="arry-pic" src="./images 3/arry-s.jpg" alt="arry-y">
+                            <p>Arry Y</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="profile.js"></script>
+</body>
+</html>

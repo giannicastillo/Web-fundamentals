@@ -18,7 +18,7 @@
 }
 .profilepic{
     position: relative;
-    bottom: 30px; /* help: how to align icon with both blocks */
+    bottom: 30px;
     margin-left: 50px;
     width: 75px;
     height: 75px;
@@ -40,13 +40,8 @@
     margin-bottom: 10px;
 }
 .header{
-    /* flex: 30px;
-    width: 10px
-    height:10px; */
     margin-left: 30px;
     align-items: center;
-    /* NEED HELP ORGANIZING HEADER*/
-
 }
 .button{
     margin-left: 15px;
